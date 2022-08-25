@@ -237,7 +237,7 @@ const defaultOptions = {
 };
 {
   defaultOptions.defaultUrl = {
-    value: "cv_wyjo_082022.pdf.pdf",
+    value: "cv_wyjo_082022.pdf",
     kind: OptionKind.VIEWER
   };
   defaultOptions.disablePreferences = {
