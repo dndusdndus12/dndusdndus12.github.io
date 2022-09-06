@@ -2198,7 +2198,7 @@ const PDFViewerApplication = {
 exports.PDFViewerApplication = PDFViewerApplication;
 let validateFileURL;
 {
-  const HOSTED_VIEWER_ORIGINS = ["null", "http://mozilla.github.io", "https://mozilla.github.io", "https://raw.githubusercontent.com", "https://dndusdndus12.github.io/", "http://dndusdndus12.github.io/", "http://localhost:8000"];
+  const HOSTED_VIEWER_ORIGINS = ["null", "http://mozilla.github.io", "https://mozilla.github.io", "https://raw.githubusercontent.com", "https://dndusdndus12.github.io", "http://dndusdndus12.github.io", "http://localhost:8000"];
 
   validateFileURL = function (file) {
     if (!file) {
