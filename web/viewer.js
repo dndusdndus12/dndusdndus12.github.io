@@ -2198,7 +2198,7 @@ const PDFViewerApplication = {
 exports.PDFViewerApplication = PDFViewerApplication;
 let validateFileURL;
 {
-  const HOSTED_VIEWER_ORIGINS = ["null", "http://mozilla.github.io", "https://mozilla.github.io", "https://raw.githubusercontent.com/", "https://dndusdndus12.github.io/", "http://dndusdndus12.github.io/", "http://localhost:8000"];
+  const HOSTED_VIEWER_ORIGINS = ["null", "http://mozilla.github.io", "https://mozilla.github.io", "https://raw.githubusercontent.com", "https://dndusdndus12.github.io/", "http://dndusdndus12.github.io/", "http://localhost:8000"];
 
   validateFileURL = function (file) {
     if (!file) {
@@ -2210,6 +2210,9 @@ let validateFileURL;
 
       if (HOSTED_VIEWER_ORIGINS.includes(viewerOrigin)) {
         return;
+      }
+      else{
+        console.log("HOSTED_VIEWER_ORIGINS ["+HOSTED_VIEWER_ORIGINS+"] does not includes viewerOrigin ("+viewerOrigin+").")
       }
 
       const fileOrigin = new URL(file, window.location.href).origin;
