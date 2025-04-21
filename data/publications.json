@@ -1,6 +1,6 @@
 [
     {
-      "title": "Oops, It Halted Again: Exploiting PLC Memory for Fun and Profit in Industrial Control Systems",
+      "title": "[Accepted!] Oops, It Halted Again: Exploiting PLC Memory for Fun and Profit in Industrial Control Systems",
       "authors": "Wooyeon Jo, Irfan Ahmed",
       "venue": "USENIX WOOT",
       "year": 2025,
@@ -20,8 +20,7 @@
       "authors": "S Kim, Wooyeon Jo, H Kim, S Choi, DI Jung, H Choi, T Shon",
       "venue": "Electronics 13 (8), 1520",
       "year": 2024,
-      "pdf": "papers/two_phase.pdf",
-      "image": "images/anomaly.png"
+      "pdf": "papers/two_phase.pdf"
     },
     {
       "title": "Pree: Heuristic builder for reverse engineering of network protocols in industrial control systems",
@@ -37,15 +36,14 @@
       "venue": "IEEE Security & Privacy 21 (4), 10-19",
       "year": 2023,
       "pdf": "papers/ICS_by_design.pdf",
-      "image": "images/insecure_plcs.png"
+      "image": "images/ieee.png"
     },
     {
       "title": "Gadgets of gadgets in industrial control systems: Return oriented programming attacks on PLCs",
       "authors": "A Ayub, N Zubair, H Yoo, Wooyeon Jo, I Ahmed",
       "venue": "IEEE HOST",
       "year": 2023,
-      "pdf": "papers/Gadgets.pdf",
-      "image": "images/rop_plc.png"
+      "pdf": "papers/Gadgets.pdf"
     }
   ]
   
