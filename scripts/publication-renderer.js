@@ -10,7 +10,7 @@ fetch('data/publications.json')
 
       if (paper.image) {
         html += `<a href="${paper.pdf}" target="_blank">
-                    <img src="${paper.image}" alt="${paper.title}" class="pub-thumb">
+                    <img src="${paper.image}" alt="${paper.title}" class="pub-thumb hover-zoom">
                  </a>`;
       }
 
