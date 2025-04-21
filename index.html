@@ -9,11 +9,12 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
+      line-height: 1.6;
     }
     header {
       background-color: #1e1e1e;
       color: white;
-      padding: 1rem;
+      padding: 1.5rem;
       text-align: center;
     }
     nav {
@@ -21,7 +22,7 @@
       display: flex;
       justify-content: center;
       gap: 2rem;
-      padding: 0.75rem 0;
+      padding: 1rem 0;
     }
     nav a {
       color: white;
@@ -33,11 +34,8 @@
     }
     main {
       padding: 2rem;
-    }
-    iframe {
-      width: 100%;
-      height: 90vh;
-      border: none;
+      max-width: 800px;
+      margin: 0 auto;
     }
     footer {
       background-color: #1e1e1e;
@@ -54,12 +52,17 @@
     .social-buttons a:hover {
       color: #0af;
     }
+    .highlight {
+      font-weight: bold;
+      color: #007acc;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Wooyeon Jo</h1>
-    <p>Postdoctoral Researcher | ICS Security & Digital Forensics</p>
+    <p>Postdoctoral Researcher at Virginia Commonwealth University (<a href="https://www.vcu.edu/" target="_blank" style="color: #aad; text-decoration: none;">VCU</a>)<br>
+    Supervised by <a href="https://egr.vcu.edu/directory/irfan.ahmed.vcu/" target="_blank" style="color: #aad; text-decoration: underline;">Irfan Ahmed</a></p>
   </header>
   <nav>
     <a href="index.html">About</a>
@@ -68,7 +71,7 @@
   </nav>
   <main>
     <h2>About Me</h2>
-    <p>I am a postdoctoral researcher in the SAFE Lab, working on cybersecurity for Industrial Control Systems (ICS), with a strong focus on PLC memory forensics, firmware analysis, and automated vulnerability discovery.</p>
+    <p>Wooyeon Jo is currently a postdoctoral researcher at the SAFE Lab of Virginia Commonwealth University (VCU). Prior to his position at VCU, he earned his Ph.D. from Ajou University. Wooyeon's research interests broadly span the realm of cybersecurity, with specific focuses on digital forensics and network security. He boasts experience with various file systems including Ext4, as well as mobile forensics and file restoration. Additionally, Wooyeon has applied security measures to diverse networks such as ICS, IoT, mobile, and IVN. He is currently concentrating on digital forensics research that amalgamates PLC memory regions with networks.</p>
 
     <h3>Research Interests</h3>
     <ul>
@@ -80,9 +83,34 @@
 
     <h3>Recent Publications</h3>
     <ul>
-      <li><span class="highlight">"3-Channel Validator"</span> - A framework for identifying malicious modifications in PLCs (DFRWS 2024)</li>
-      <li><span class="highlight">"Memory Boundary Fault"</span> - A novel PLC vulnerability (CVE-2024-11737)</li>
-      <li><span class="highlight">PLC Memory Segmentation using ML</span> - Classification of firmware memory regions (To appear)</li>
+      <li><strong>"Oops, It Halted Again: Exploiting PLC Memory for Fun and Profit in ICS"</strong> - USENIX WOOT'25</li>
+      <li><strong> CVE-2024-11737 </strong>
+        <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-11737" target="_blank" title="CVE Details">
+           Link(<i class="fas fa-globe"></i>)
+        </a>
+        <a href="https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2024-345-03&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2024-345-03.pdf" target="_blank" title="PDF Report">
+           Details(<i class="fas fa-file-pdf"></i>)
+        </a>
+      </li>
+      <li><strong>"Charlie, Charlie, Charlie on Industrial Control Systems"</strong> - IEEE HOST'24</li>
+      <li><strong>"Gadgets of gadgets in industrial control systems"</strong> - IEEE HOST'23</li>
+    </ul>
+    <p><a href="publications.html" style="color: #007acc; text-decoration: underline;"><strong>More details...</strong></a></p>
+
+    <h3>Honors</h3>
+    <ul>
+      <li><strong>USCYBERCOM Commander Award and Guardian Award (as First Author)</strong> by Four-star General Timothy D. Haugh, the Commander of US Department of Defense Cyber Command. The award ceremony was organized at US Naval Academy, Annapolis, MD, April 2024
+        <a href="https://www.cybercom.mil/Media/News/Article/3754641/cyber-recon-2024-recognizes-excellence-fosters-collaboration/">(link)</a></li>
+      <!-- <li><strong>USCYBERCOM Guardian Award as 1st Author</strong> by US Department of Defense Cyber Command. The award ceremony was organized at US Naval Academy, Annapolis, MD, April 2024</li> -->
+      <li><strong>USCYBERCOM Challenge Coins</strong>  
+        awarded by Four-star General Timothy D. Haugh, Commander of the U.S. Department of Defense Cyber Command,  
+        and Rear Admiral Dennis Velez, Director of Plans and Policy at U.S. Cyber Command.  
+      </li>      
+      <li><strong>Best Student Paper Award</strong>, 23rd Annual Digital Forensics Research Conference (DFRWS US’23), hosted at Johns Hopkins University, Baltimore, MD, July 2023</li>
+      <li><strong>Graduate Student Representative</strong> on February, hosted at Ajou University, South Korea, 2022</li>
+      <li><strong>Student Scholarship</strong>, 19th Annual Digital Forensics Research Conference (DFRWS US’19), funded by DFRWS, Portland, OR, United States, July 2019</li>
+      <li><strong>Future Computing Scholarship</strong>, funded by Ajou University, South Korea, 2014</li>
+      <li><strong>Information Computer Scholarship</strong>, funded by Ajou University, South Korea, 2013</li>
     </ul>
   </main>
   <footer>
