@@ -30,9 +30,10 @@ fetch('data/publications.json')
     style.textContent = `
       .hover-zoom {
         transition: transform 0.3s ease;
+        transform-origin: top left;
       }
       .hover-zoom:hover {
-        transform: scale(2.5);
+        transform: scale(3);
         z-index: 10;
       }
     `;
