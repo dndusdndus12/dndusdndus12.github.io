@@ -23,4 +23,18 @@ fetch('data/publications.json')
       div.innerHTML = html;
       container.appendChild(div);
     });
+
+
+    // Add CSS dynamically for hover-zoom effect
+    const style = document.createElement('style');
+    style.textContent = `
+      .hover-zoom {
+        transition: transform 0.3s ease;
+      }
+      .hover-zoom:hover {
+        transform: scale(2.5);
+        z-index: 10;
+      }
+    `;
+    document.head.appendChild(style);
   });
