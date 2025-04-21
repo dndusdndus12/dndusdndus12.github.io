@@ -13,7 +13,7 @@
       "venue": "IEEE HOST",
       "year": 2024,
       "pdf": "papers/charlie_ics.pdf",
-      "image": "images/charlie.png"
+      "image": "images/charlie.PNG"
     },
     {
       "title": "Two-Phase Industrial Control System Anomaly Detection Using Communication Patterns and Deep Learning",
@@ -28,7 +28,7 @@
       "venue": "Forensic Science International: Digital Investigation 45, 301565",
       "year": 2023,
       "pdf": "papers/PREE.pdf",
-      "image": "images/pree.png"
+      "image": "images/pree.PNG"
     },
     {
       "title": "How are industrial control systems insecure by design? A deeper insight into real-world programmable logic controllers",
@@ -36,7 +36,7 @@
       "venue": "IEEE Security & Privacy 21 (4), 10-19",
       "year": 2023,
       "pdf": "papers/ICS_by_design.pdf",
-      "image": "images/ieee.png"
+      "image": "images/ieee.PNG"
     },
     {
       "title": "Gadgets of gadgets in industrial control systems: Return oriented programming attacks on PLCs",
