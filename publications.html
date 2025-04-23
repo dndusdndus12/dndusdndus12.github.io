@@ -1,106 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Publications | Wooyeon Jo</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-    header {
-      background-color: #1e1e1e;
-      color: white;
-      padding: 1.5rem;
-      text-align: center;
-    }
-    nav {
-      background-color: #333;
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      padding: 1rem 0;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    main {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    .pub-item {
-      display: flex;
-      gap: 1.5rem;
-      margin-bottom: 2rem;
-      align-items: flex-start;
-    }
-    .pub-thumb {
-      width: 140px;
-      height: auto;
-      object-fit: cover;
-      border-radius: 6px;
-      flex-shrink: 0;
-      background-color: white; /* ← 이 줄 추가 */
-    }
-    .pub-meta {
-      flex: 1;
-    }
-    .pub-meta h3 {
-      margin: 0 0 0.3rem 0;
-      font-size: 1.1rem;
-    }
-    .pub-meta h3 a {
-      text-decoration: none;
-      color: #007acc;
-    }
-    .pub-meta p {
-      margin: 0.2rem 0;
-    }
-    .no-image .pub-item {
-      flex-direction: column;
-    }
-    footer {
-      background-color: #1e1e1e;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    .social-buttons a {
-      margin: 0 15px;
-      color: white;
-      text-decoration: none;
-      font-size: 1.5rem;
-    }
-    .social-buttons a:hover {
-      color: #0af;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications | Wooyeon Jo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #1e1e1e;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        nav {
+            position: sticky;
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1rem 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 2rem;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .pub-item {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            align-items: flex-start;
+        }
+
+        .pub-thumb {
+            width: 140px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 6px;
+            flex-shrink: 0;
+            background-color: white;
+            /* ← 이 줄 추가 */
+        }
+
+        .pub-meta {
+            flex: 1;
+        }
+
+        .pub-meta h3 {
+            margin: 0 0 0.3rem 0;
+            font-size: 1.1rem;
+        }
+
+        .pub-meta h3 a {
+            text-decoration: none;
+            color: #007acc;
+        }
+
+        .pub-meta p {
+            margin: 0.2rem 0;
+        }
+
+        .no-image .pub-item {
+            flex-direction: column;
+        }
+
+        footer {
+            position: fixed;
+            background-color: #1e1e1e;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .social-buttons a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+
+        .social-buttons a:hover {
+            color: #0af;
+        }
+    </style>
 </head>
+
 <body>
-  <header>
-    <h1>Publications</h1>
-  </header>
-  <nav>
-    <a href="index.html">About</a>
-    <a href="publications.html">Publications</a>
-    <a href="cv.html">CV</a>
-  </nav>
-  <main id="publications"></main>
-  <footer>
-    <div class="social-buttons">
-      <a href="mailto:jow@vcu.edu" title="Email"><i class="fas fa-envelope"></i></a>
-      <a href="https://www.linkedin.com/in/wooyeon-jo-3a29bbb6/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="https://scholar.google.com/citations?user=n3zLgowAAAAJ" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-    </div>
-  </footer>
-  <script src="scripts/publication-renderer.js"></script>
+    <header>
+        <h1>Publications</h1>
+    </header>
+    <nav>
+        <a href="index.html">About</a>
+        <a href="publications.html">Publications</a>
+        <a href="cv.html">CV</a>
+    </nav>
+    <main id="publications"></main>
+    <footer>
+        <div class="social-buttons">
+            <a href="mailto:jow@vcu.edu" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/wooyeon-jo-3a29bbb6/" target="_blank" title="LinkedIn"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://scholar.google.com/citations?user=n3zLgowAAAAJ" target="_blank" title="Google Scholar"><i
+                    class="fas fa-graduation-cap"></i></a>
+        </div>
+    </footer>
+    <script src="scripts/publication-renderer.js"></script>
 </body>
+
 </html>

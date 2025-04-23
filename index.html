@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +12,15 @@
       font-family: Arial, sans-serif;
       line-height: 1.6;
     }
+
     header {
+      position: sticky;
       background-color: #1e1e1e;
       color: white;
       padding: 1.5rem;
       text-align: center;
     }
+
     nav {
       background-color: #333;
       display: flex;
@@ -24,45 +28,56 @@
       gap: 2rem;
       padding: 1rem 0;
     }
+
     nav a {
       color: white;
       text-decoration: none;
       font-weight: bold;
     }
+
     nav a:hover {
       text-decoration: underline;
     }
+
     main {
       padding: 2rem;
       max-width: 800px;
       margin: 0 auto;
     }
+
     footer {
+      position: fixed;
       background-color: #1e1e1e;
       color: white;
       padding: 1rem;
       text-align: center;
     }
+
     .social-buttons a {
       margin: 0 15px;
       color: white;
       text-decoration: none;
       font-size: 1.5rem;
     }
+
     .social-buttons a:hover {
       color: #0af;
     }
+
     .highlight {
       font-weight: bold;
       color: #007acc;
     }
   </style>
 </head>
+
 <body>
   <header>
     <h1>Wooyeon Jo</h1>
-    <p>Postdoctoral Researcher at Virginia Commonwealth University (<a href="https://www.vcu.edu/" target="_blank" style="color: #aad; text-decoration: none;">VCU</a>)<br>
-    Supervised by <a href="https://egr.vcu.edu/directory/irfan.ahmed.vcu/" target="_blank" style="color: #aad; text-decoration: underline;">Irfan Ahmed</a></p>
+    <p>Postdoctoral Researcher at Virginia Commonwealth University (<a href="https://www.vcu.edu/" target="_blank"
+        style="color: #aad; text-decoration: none;">VCU</a>)<br>
+      Supervised by <a href="https://egr.vcu.edu/directory/irfan.ahmed.vcu/" target="_blank"
+        style="color: #aad; text-decoration: underline;">Irfan Ahmed</a></p>
   </header>
   <nav>
     <a href="index.html">About</a>
@@ -71,7 +86,12 @@
   </nav>
   <main>
     <h2>About Me</h2>
-    <p>Wooyeon Jo is currently a postdoctoral researcher at the SAFE Lab of Virginia Commonwealth University (VCU). Prior to his position at VCU, he earned his Ph.D. from Ajou University. Wooyeon's research interests broadly span the realm of cybersecurity, with specific focuses on digital forensics and network security. He boasts experience with various file systems including Ext4, as well as mobile forensics and file restoration. Additionally, Wooyeon has applied security measures to diverse networks such as ICS, IoT, mobile, and IVN. He is currently concentrating on digital forensics research that amalgamates PLC memory regions with networks.</p>
+    <p>Wooyeon Jo is currently a postdoctoral researcher at the SAFE Lab of Virginia Commonwealth University (VCU).
+      Prior to his position at VCU, he earned his Ph.D. from Ajou University. Wooyeon's research interests broadly span
+      the realm of cybersecurity, with specific focuses on digital forensics and network security. He boasts experience
+      with various file systems including Ext4, as well as mobile forensics and file restoration. Additionally, Wooyeon
+      has applied security measures to diverse networks such as ICS, IoT, mobile, and IVN. He is currently concentrating
+      on digital forensics research that amalgamates PLC memory regions with networks.</p>
 
     <h3>Research Interests</h3>
     <ul>
@@ -83,32 +103,42 @@
 
     <h3>Recent Publications</h3>
     <ul>
-      <li><strong>"Oops, It Halted Again: Exploiting PLC Memory for Fun and Profit in ICS"</strong> - USENIX WOOT'25</li>
+      <li><strong>"Oops, It Halted Again: Exploiting PLC Memory for Fun and Profit in ICS"</strong> - USENIX WOOT'25
+      </li>
       <li><strong> CVE-2024-11737 </strong>
         <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-11737" target="_blank" title="CVE Details">
-           Link(<i class="fas fa-globe"></i>)
+          Link(<i class="fas fa-globe"></i>)
         </a>
-        <a href="https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2024-345-03&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2024-345-03.pdf" target="_blank" title="PDF Report">
-           Details(<i class="fas fa-file-pdf"></i>)
+        <a href="https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2024-345-03&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2024-345-03.pdf"
+          target="_blank" title="PDF Report">
+          Details(<i class="fas fa-file-pdf"></i>)
         </a>
       </li>
       <li><strong>"Charlie, Charlie, Charlie on Industrial Control Systems"</strong> - IEEE HOST'24</li>
       <li><strong>"Gadgets of gadgets in industrial control systems"</strong> - IEEE HOST'23</li>
     </ul>
-    <p><a href="publications.html" style="color: #007acc; text-decoration: underline;"><strong>More details...</strong></a></p>
+    <p><a href="publications.html" style="color: #007acc; text-decoration: underline;"><strong>More
+          details...</strong></a></p>
 
     <h3>Honors</h3>
     <ul>
-      <li><strong>USCYBERCOM Commander Award and Guardian Award (as First Author)</strong> by Four-star General Timothy D. Haugh, the Commander of US Department of Defense Cyber Command. The award ceremony was organized at US Naval Academy, Annapolis, MD, April 2024
-        <a href="https://www.cybercom.mil/Media/News/Article/3754641/cyber-recon-2024-recognizes-excellence-fosters-collaboration/">(link)</a></li>
+      <li><strong>USCYBERCOM Commander Award and Guardian Award (as First Author)</strong> by Four-star General Timothy
+        D. Haugh, the Commander of US Department of Defense Cyber Command. The award ceremony was organized at US Naval
+        Academy, Annapolis, MD, April 2024
+        <a
+          href="https://www.cybercom.mil/Media/News/Article/3754641/cyber-recon-2024-recognizes-excellence-fosters-collaboration/">(link)</a>
+      </li>
       <!-- <li><strong>USCYBERCOM Guardian Award as 1st Author</strong> by US Department of Defense Cyber Command. The award ceremony was organized at US Naval Academy, Annapolis, MD, April 2024</li> -->
-      <li><strong>USCYBERCOM Challenge Coins</strong>  
-        awarded by Four-star General Timothy D. Haugh, Commander of the U.S. Department of Defense Cyber Command,  
-        and Rear Admiral Dennis Velez, Director of Plans and Policy at U.S. Cyber Command.  
-      </li>      
-      <li><strong>Best Student Paper Award</strong>, 23rd Annual Digital Forensics Research Conference (DFRWS US’23), hosted at Johns Hopkins University, Baltimore, MD, July 2023</li>
-      <li><strong>Graduate Student Representative</strong> on February, hosted at Ajou University, South Korea, 2022</li>
-      <li><strong>Student Scholarship</strong>, 19th Annual Digital Forensics Research Conference (DFRWS US’19), funded by DFRWS, Portland, OR, United States, July 2019</li>
+      <li><strong>USCYBERCOM Challenge Coins</strong>
+        awarded by Four-star General Timothy D. Haugh, Commander of the U.S. Department of Defense Cyber Command,
+        and Rear Admiral Dennis Velez, Director of Plans and Policy at U.S. Cyber Command.
+      </li>
+      <li><strong>Best Student Paper Award</strong>, 23rd Annual Digital Forensics Research Conference (DFRWS US’23),
+        hosted at Johns Hopkins University, Baltimore, MD, July 2023</li>
+      <li><strong>Graduate Student Representative</strong> on February, hosted at Ajou University, South Korea, 2022
+      </li>
+      <li><strong>Student Scholarship</strong>, 19th Annual Digital Forensics Research Conference (DFRWS US’19), funded
+        by DFRWS, Portland, OR, United States, July 2019</li>
       <li><strong>Future Computing Scholarship</strong>, funded by Ajou University, South Korea, 2014</li>
       <li><strong>Information Computer Scholarship</strong>, funded by Ajou University, South Korea, 2013</li>
     </ul>
@@ -116,9 +146,12 @@
   <footer>
     <div class="social-buttons">
       <a href="mailto:jow@vcu.edu" title="Email"><i class="fas fa-envelope"></i></a>
-      <a href="https://www.linkedin.com/in/wooyeon-jo-3a29bbb6/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="https://scholar.google.com/citations?user=n3zLgowAAAAJ" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+      <a href="https://www.linkedin.com/in/wooyeon-jo-3a29bbb6/" target="_blank" title="LinkedIn"><i
+          class="fab fa-linkedin"></i></a>
+      <a href="https://scholar.google.com/citations?user=n3zLgowAAAAJ" target="_blank" title="Google Scholar"><i
+          class="fas fa-graduation-cap"></i></a>
     </div>
   </footer>
 </body>
+
 </html>
