@@ -23,6 +23,13 @@
       "pdf": "papers/two_phase.pdf"
     },
     {
+        "title": "Nazar: Stateful Intrusion Detection System for Control Logic Attacks in Industrial Control Systems",
+        "authors":"Wooyeon Jo, et al." , 
+        "venue":"USCYBERCOM’s Cyber RECon 2024",
+        "year":"2024",
+        "pdf":"https://www.cybercom.mil/Media/News/Article/3754641/cyber-recon-2024-recognizes-excellence-fosters-collaboration/"
+    },
+    {
       "title": "Pree: Heuristic builder for reverse engineering of network protocols in industrial control systems",
       "authors": "SA Qasim, Wooyeon Jo, I Ahmed\\n[Best Student Paper Award]",
       "venue": "Forensic Science International: Digital Investigation 45, 301565",
@@ -43,7 +50,7 @@
       "authors": "A Ayub, N Zubair, H Yoo, Wooyeon Jo, I Ahmed",
       "venue": "IEEE HOST",
       "year": 2023,
-      "pdf":"https://ieeexplore.ieee.org/document/10132957"
+      "pdf": "papers/Gadgets.pdf"
     },
     {
       "title": "Packet Preprocessing in CNN-Based Network Intrusion Detection System",
@@ -51,6 +58,66 @@
       "venue": "Electronics",
       "year": 2020,
       "pdf": "https://www.mdpi.com/2079-9292/9/7/1151"
+    },
+    {
+        "title": "Two-Phase Industrial Control System Anomaly Detection Using Communication Patterns and Deep Learning",
+        "authors": "Sungjin Kim, Wooyeon Jo, et al.",
+        "venue": "Electronics",
+        "year": 2024
+    },
+    {
+        "title": "Digital forensic analysis of intelligent and smart IoT devices",
+        "authors": "M Kim, Wooyeon Jo, et al.",
+        "venue": "The Journal of Supercomputing",
+        "year": 2023
+    },
+    {
+        "title": "Automatic Whitelist Generation System for Ethernet based In-Vehicle Network",
+        "authors": "Wooyeon Jo, et al.",
+        "venue": "Computers in Industry",
+        "year": 2022
+    },
+    {
+        "title": "Unknown Payload Anomaly Detection Based on Format and Field Semantics Inference in Cyber-Physical Infrastructure Systems",
+        "authors": "Kim, HyunJin, Wooyeon Jo, et al.",
+        "venue": "IEEE Access",
+        "year": 2021
+    },
+    {
+        "title": "Certificate Injection-Based Encrypted Traffic Forensics in AI Speaker Ecosystem",
+        "authors": "Shin, Yeonghun, Wooyeon Jo, et al.",
+        "venue": "Forensic Science International: Digital Investigation",
+        "year": 2020
+    },
+    {
+        "title": "APAD: autoencoder-based payload anomaly detection for industrial IoE",
+        "authors": "Kim, SungJin, Wooyeon Jo, and Taeshik Shon",
+        "venue": "Applied Soft Computing",
+        "year": 2020
+    },
+    {
+        "title": "Digital forensic practices and methodologies for AI speaker ecosystems",
+        "authors": "Wooyeon Jo, et al.",
+        "venue": "Digital Investigation",
+        "year": 2019
+    },
+    {
+        "title": "Visualization for internet of things: power system and financial network cases",
+        "authors": "Kim, Myungjong, Wooyeon Jo, Taeshik Shon",
+        "venue": "Multimedia Tools and Applications",
+        "year": 2019
+    },
+    {
+        "title": "ExtSFR: scalable file recovery framework based on an Ext file system",
+        "authors": "Lee, Seokjun, Wooyeon Jo, Taeshik Shon",
+        "venue": "Multimedia Tools and Applications",
+        "year": 2019
+    },
+    {
+        "title": "Digital forensic science approach by file recovery research",
+        "authors": "Wooyeon Jo, Hyunsoo Chang, and Taeshik Shon",
+        "venue": "The Journal of Supercomputing",
+        "year": 2018
     }
   ]
   
