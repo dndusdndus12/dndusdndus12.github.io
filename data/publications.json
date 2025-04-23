@@ -44,6 +44,13 @@
       "venue": "IEEE HOST",
       "year": 2023,
       "pdf": "papers/Gadgets.pdf"
+    },
+    {
+      "title": "Packet Preprocessing in CNN-Based Network Intrusion Detection System",
+      "authors": "W Jo, S Kim, C Lee, T Shon",
+      "venue": "Electronics",
+      "year": 2020,
+      "pdf": "https://www.mdpi.com/2079-9292/9/7/1151"
     }
   ]
   
