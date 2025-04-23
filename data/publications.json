@@ -43,7 +43,7 @@
       "authors": "A Ayub, N Zubair, H Yoo, Wooyeon Jo, I Ahmed",
       "venue": "IEEE HOST",
       "year": 2023,
-      "pdf": "papers/Gadgets.pdf"
+      "pdf":"https://ieeexplore.ieee.org/document/10132957"
     },
     {
       "title": "Packet Preprocessing in CNN-Based Network Intrusion Detection System",
