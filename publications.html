@@ -21,6 +21,8 @@
 
         nav {
             position: sticky;
+            top: 0;
+            z-index: 999;
             background-color: #333;
             display: flex;
             justify-content: center;
@@ -85,10 +87,14 @@
 
         footer {
             position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
             background-color: #1e1e1e;
             color: white;
             padding: 1rem;
             text-align: center;
+            z-index: 999;
         }
 
         .social-buttons a {
