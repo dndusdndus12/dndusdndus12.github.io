@@ -135,10 +135,6 @@
         }
     </style>
 </head>
-<script>
-    document.getElementById("scrollTopBtn").onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
-    document.getElementById("scrollBottomBtn").onclick = () => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-</script>
 
 <body>
     <button id="scrollTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
@@ -162,6 +158,10 @@
         </div>
     </footer>
     <script src="scripts/publication-renderer.js"></script>
+    <script>
+        document.getElementById("scrollTopBtn").onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+        document.getElementById("scrollBottomBtn").onclick = () => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    </script>
 </body>
 
 </html>
