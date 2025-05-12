@@ -123,6 +123,20 @@
     #scrollBottomBtn {
       bottom: 20px;
     }
+
+    #copyNotice {
+      position: fixed;
+      bottom: 100px;
+      right: 30px;
+      background: #007acc;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      display: none;
+      z-index: 1001;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    }
   </style>
 </head>
 
@@ -200,7 +214,9 @@
   </main>
   <footer>
     <div class="social-buttons">
-      <a href="mailto:jow@vcu.edu" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="mailto:jow@vcu.edu" id="copyEmail" title="Click to copy email">
+        <i class="fas fa-envelope"></i>
+      </a>
       <a href="https://www.linkedin.com/in/wooyeon-jo-3a29bbb6/" target="_blank" title="LinkedIn"><i
           class="fab fa-linkedin"></i></a>
       <a href="https://scholar.google.com/citations?user=n3zLgowAAAAJ" target="_blank" title="Google Scholar"><i
@@ -208,6 +224,7 @@
     </div>
   </footer>
 
+  <div id="copyNotice">Email copied to clipboard</div>
   <button id="scrollTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
   <button id="scrollBottomBtn" title="Go to bottom"><i class="fas fa-arrow-down"></i></button>
   <script>
