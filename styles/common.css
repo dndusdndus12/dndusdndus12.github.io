@@ -1,0 +1,124 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .social-buttons a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  .social-buttons a:hover {
+    color: #0af;
+  }
+  
+  #scrollTopBtn, #scrollBottomBtn {
+    position: fixed;
+    right: 20px;
+    padding: 0.6rem 0.9rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #007acc;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+  }
+  #scrollTopBtn:hover, #scrollBottomBtn:hover {
+    background-color: #005f99;
+  }
+  #scrollTopBtn { bottom: 150px; }
+  #scrollBottomBtn { bottom: 100px; }
+  
+  #copyNotice {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #007acc;
+    color: white;
+    padding: 0.75rem 1.25rem;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    display: none;
+    z-index: 1001;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+  #copyNotice.fade-out {
+    opacity: 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #007acc;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 90vh;
+    border: none;
+  }
+  
+  ul {
+    padding-left: 1.2rem;
+  }
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  h2 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  h3 {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+  }
+  

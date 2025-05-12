@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="UTF-8">
   <meta name="description"
     content="Wooyeon Jo's academic homepage: research in ICS security, PLC memory forensics, and digital forensics.">
   <meta name="keywords" content="Wooyeon Jo, ICS security, digital forensics, PLC, network security, VCU">
@@ -30,114 +29,7 @@
 
   <title>Wooyeon Jo | Researcher</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-    }
-
-    header {
-      position: sticky;
-      background-color: #1e1e1e;
-      color: white;
-      padding: 1.5rem;
-      text-align: center;
-    }
-
-    nav {
-      position: sticky;
-      top: 0;
-      z-index: 999;
-      background-color: #333;
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      padding: 1rem 0;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      padding: 2rem;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    footer {
-      background-color: #1e1e1e;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-
-    .social-buttons a {
-      margin: 0 15px;
-      color: white;
-      text-decoration: none;
-      font-size: 1.5rem;
-    }
-
-    .social-buttons a:hover {
-      color: #0af;
-    }
-
-    .highlight {
-      font-weight: bold;
-      color: #007acc;
-    }
-
-    #scrollTopBtn,
-    #scrollBottomBtn {
-      position: fixed;
-      right: 20px;
-      padding: 0.6rem 0.9rem;
-      font-size: 1rem;
-      color: white;
-      background-color: #007acc;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      z-index: 1000;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-      transition: background-color 0.3s;
-    }
-
-    #scrollTopBtn:hover,
-    #scrollBottomBtn:hover {
-      background-color: #005f99;
-    }
-
-    #scrollTopBtn {
-      bottom: 70px;
-    }
-
-    #scrollBottomBtn {
-      bottom: 20px;
-    }
-
-    #copyNotice {
-      position: fixed;
-      bottom: 100px;
-      right: 30px;
-      background: #007acc;
-      color: white;
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
-      font-size: 0.9rem;
-      display: none;
-      z-index: 1001;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-    }
-  </style>
+  <link rel="stylesheet" href="styles/common.css" />
 </head>
 
 <body>
@@ -214,7 +106,7 @@
   </main>
   <footer>
     <div class="social-buttons">
-      <a href="mailto:jow@vcu.edu" id="copyEmail" title="Click to copy email">
+      <a href="javascript:void(0);" id="copyEmail" title="Click to copy email">
         <i class="fas fa-envelope"></i>
       </a>
       <a href="https://www.linkedin.com/in/wooyeon-jo-3a29bbb6/" target="_blank" title="LinkedIn"><i
@@ -227,10 +119,7 @@
   <div id="copyNotice">Email copied to clipboard</div>
   <button id="scrollTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
   <button id="scrollBottomBtn" title="Go to bottom"><i class="fas fa-arrow-down"></i></button>
-  <script>
-    document.getElementById("scrollTopBtn").onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
-    document.getElementById("scrollBottomBtn").onclick = () => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-  </script>
+  <script src="scripts/common.js"></script>
 </body>
 
 </html>
