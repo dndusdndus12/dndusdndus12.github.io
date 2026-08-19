@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+    content="Wooyeon Jo's academic homepage: research in ICS security, PLC memory forensics, and digital forensics.">
+    <meta name="keywords" content="Wooyeon Jo, ICS security, digital forensics, PLC, network security, VCU">
+    <meta name="author" content="Wooyeon Jo">
+    <meta name="title" content="wooyeon jo, ph.d.">
+    <title>Publications | Wooyeon Jo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/common.css" />
+    <style>
+        .pub-item {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            align-items: flex-start;
+        }
+
+        .pub-thumb {
+            width: 140px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 6px;
+            flex-shrink: 0;
+            background-color: white;
+            /* ← 이 줄 추가 */
+        }
+
+        .pub-meta {
+            flex: 1;
+        }
+
+        .pub-meta h3 {
+            margin: 0 0 0.3rem 0;
+            font-size: 1.1rem;
+        }
+
+        .pub-meta h3 a {
+            text-decoration: none;
+            color: #007acc;
+        }
+
+        .pub-meta p {
+            margin: 0.2rem 0;
+        }
+
+        .no-image .pub-item {
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="scrollTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <button id="scrollBottomBtn" title="Go to bottom"><i class="fas fa-arrow-down"></i></button>
+    <header>
+        <h1>Publications</h1>
+    </header>
+    <nav>
+        <a href="index.html">About</a>
+        <a href="publications.html">Publications</a>
+        <a href="cv.html">CV</a>
+    </nav>
+    <main id="publications"></main>
+    <footer>
+        <div class="social-buttons">
+            <a href="javascript:void(0);" id="copyEmail" title="Click to copy email">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/wooyeon-jo-3a29bbb6/" target="_blank" title="LinkedIn"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://scholar.google.com/citations?user=n3zLgowAAAAJ" target="_blank" title="Google Scholar"><i
+                    class="fas fa-graduation-cap"></i></a>
+        </div>
+    </footer>
+    <script src="scripts/publication-renderer.js"></script>
+    <script>
+        document.getElementById("scrollTopBtn").onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+        document.getElementById("scrollBottomBtn").onclick = () => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    </script>
+    <script src="scripts/common.js"></script>
+</body>
+
+</html>
